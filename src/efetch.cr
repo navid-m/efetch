@@ -135,14 +135,13 @@ module Efetch
 
   class Display
     COLORS = {
-      red:     "\e[31m",
-      green:   "\e[32m",
-      yellow:  "\e[33m",
-      blue:    "\e[34m",
-      magenta: "\e[35m",
-      cyan:    "\e[36m",
-      white:   "\e[37m",
-
+      red:            "\e[31m",
+      green:          "\e[32m",
+      yellow:         "\e[33m",
+      blue:           "\e[34m",
+      magenta:        "\e[35m",
+      cyan:           "\e[36m",
+      white:          "\e[37m",
       bright_red:     "\e[91m",
       bright_green:   "\e[92m",
       bright_yellow:  "\e[93m",
@@ -150,9 +149,8 @@ module Efetch
       bright_magenta: "\e[95m",
       bright_cyan:    "\e[96m",
       bright_white:   "\e[97m",
-
-      bold:  "\e[1m",
-      reset: "\e[0m",
+      bold:           "\e[1m",
+      reset:          "\e[0m",
     }
 
     def self.logo : Array(String)
