@@ -1,0 +1,13 @@
+name: efetch
+version: 0.1.0
+
+authors:
+  - Navid M <navidmomtahen@gmail.com>
+
+targets:
+  efetch:
+    main: src/efetch.cr
+
+crystal: '>= 1.18.2'
+
+license: MIT
